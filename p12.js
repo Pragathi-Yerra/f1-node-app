@@ -1,0 +1,12 @@
+var items1=[10,20,30,40];
+console.log(`Items1: ${items1}`);
+console.log(typeof(items1));
+var items2=new Array(10,20,30,40);
+console.log(`Items2: ${items2}`);
+console.log(typeof(items2));
+var items=['scael','pencil','eraser','ticket','chocolate'];
+console.log(`items: ${items}`);
+console.log(`first items: ${items[0]}`);
+console.log(`second items: ${items[1]}`);
+console.log(`items count: ${items.length}`);
+console.log(`last items : ${items[items.length-1]}`);
